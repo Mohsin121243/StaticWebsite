@@ -1,0 +1,20 @@
+
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    min-height: 100px;
+
+}
+.col-md{
+    min-height: 350px;
+    color: white;
+    background-color: rgb(35, 127, 219);
+    text-align: center;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
