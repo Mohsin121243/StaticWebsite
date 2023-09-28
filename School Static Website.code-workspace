@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Downloads/Roboto_Slab"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "School Static Website"
+	}
+}
