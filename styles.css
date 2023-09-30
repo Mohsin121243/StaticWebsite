@@ -1,9 +1,53 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(35, 127, 219);
+    background-color: #100c08;
   }
+  .form-inline {
+    margin-right: 2px;
+}
+video {
+   height: 600px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
   
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+/* Style the search input and button */
+.form-control {
+    width: 1000px; /* Adjust the width as needed */
+}
+
+/* Adjust the margin of the search button */
+.btn-outline-success {
+    margin-left: 10px;
+}
   .navbar {
     min-height: 100px;
     background-color: whitesmoke ;
@@ -17,6 +61,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  
+  .navbar-brand{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+
   }
   
   .navbar-toggler-icon {
@@ -36,15 +87,17 @@ body {
   }
   
   #beg {
-    color: rgb(35, 127, 219);
+    color: #100c08;
     background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
     font-size: 50px;
   }
   
   .col-md {
     min-height: 350px;
     color: white;
-    background-color: rgb(35, 127, 219);
+    background-color: #100c08;
     text-align: center;
   }
   
@@ -79,6 +132,13 @@ body {
       align-self: center;
       padding: 3rem 0;
     }
+  }
+
+  .hero__content{
+    font-family: bourbon, serif;
+    color: antiquewhite;
+    font-size: 100px;
+    font-style: italic;
   }
   
   .snow {
